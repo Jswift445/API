@@ -4,10 +4,13 @@
 <title>API Search</title>
 <meta name="API" />
 <meta charset="utf-8">
-
 </head>
 <body>
-
+ <input id="query" value='guitars' type="text"/>
+ <button onclick="search()">Search</button>
+ <pre id="response"></pre>
+<script src="search.js" type="text/javascript"></script>
+<script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
 </body>
 </html>
 
